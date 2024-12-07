@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://bf4ikomwxm5sh"
-path="res://.godot/imported/0002.png-c0597bf3d57ab97f3298e2d91108d648.ctex"
+uid="uid://dpdrh84qcmh02"
+path="res://.godot/imported/sprite_character_idle0001.png-711465277599695d7251a3c3b8fac5a0.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://my-files/sprites/items/sprite_plus_spin/0002.png"
-dest_files=["res://.godot/imported/0002.png-c0597bf3d57ab97f3298e2d91108d648.ctex"]
+source_file="res://my-files/sprites/character/idle/sprite_character_idle0001.png"
+dest_files=["res://.godot/imported/sprite_character_idle0001.png-711465277599695d7251a3c3b8fac5a0.ctex"]
 
 [params]
 

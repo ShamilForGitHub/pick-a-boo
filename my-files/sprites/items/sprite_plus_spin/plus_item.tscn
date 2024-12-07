@@ -1,11 +1,11 @@
-[gd_scene load_steps=9 format=3 uid="uid://b41lhugahp2if"]
+[gd_scene load_steps=9 format=3 uid="uid://cl0hokj64albr"]
 
-[ext_resource type="Texture2D" uid="uid://bbfm1pjaemkou" path="res://my-files/sprites/items/sprite_plus_spin/0001.png" id="1_ck3se"]
-[ext_resource type="Texture2D" uid="uid://ctcrip4wx31jt" path="res://my-files/sprites/items/sprite_plus_spin/0002.png" id="2_x7fu4"]
-[ext_resource type="Texture2D" uid="uid://dhedk6k1l8ut4" path="res://my-files/sprites/items/sprite_plus_spin/0003.png" id="3_8a32q"]
-[ext_resource type="Texture2D" uid="uid://c78oesy3cqm47" path="res://my-files/sprites/items/sprite_plus_spin/0004.png" id="4_rretm"]
-[ext_resource type="Texture2D" uid="uid://csrom1w107dg2" path="res://my-files/sprites/items/sprite_plus_spin/0005.png" id="5_bqcc7"]
-[ext_resource type="Texture2D" uid="uid://bos2f2nt2bwba" path="res://my-files/sprites/items/sprite_plus_spin/0006.png" id="6_rwhu5"]
+[ext_resource type="Texture2D" uid="uid://bgiyjild1nsa4" path="res://my-files/sprites/items/sprite_plus_spin/0001.png" id="1_ck3se"]
+[ext_resource type="Texture2D" uid="uid://bf4ikomwxm5sh" path="res://my-files/sprites/items/sprite_plus_spin/0002.png" id="2_x7fu4"]
+[ext_resource type="Texture2D" uid="uid://b3yhed2vwiyc6" path="res://my-files/sprites/items/sprite_plus_spin/0003.png" id="3_8a32q"]
+[ext_resource type="Texture2D" uid="uid://buhxqhm3bt7v" path="res://my-files/sprites/items/sprite_plus_spin/0004.png" id="4_rretm"]
+[ext_resource type="Texture2D" uid="uid://lf46a5qmpv16" path="res://my-files/sprites/items/sprite_plus_spin/0005.png" id="5_bqcc7"]
+[ext_resource type="Texture2D" uid="uid://r0hcmtfql85h" path="res://my-files/sprites/items/sprite_plus_spin/0006.png" id="6_rwhu5"]
 
 [sub_resource type="SpriteFrames" id="SpriteFrames_4m3j6"]
 animations = [{
@@ -34,15 +34,16 @@ animations = [{
 }]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_jgmfe"]
-size = Vector2(64, 64)
+size = Vector2(33.3335, 33.3335)
 
 [node name="PlusItem" type="Node2D"]
-scale = Vector2(0.239999, 0.239999)
+scale = Vector2(0.475, 0.475)
 
 [node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
 sprite_frames = SubResource("SpriteFrames_4m3j6")
 autoplay = "default"
-frame_progress = 0.662908
+frame = 5
+frame_progress = 0.780588
 
 [node name="Area2D" type="Area2D" parent="AnimatedSprite2D"]
 
