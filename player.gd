@@ -13,6 +13,8 @@ func _physics_process(delta):
 		velocity.y = JUMP_VELOCITY
 		$JumpSfx.play()
 
+ #sprite animations
+
 	var direction = Input.get_axis("move_left", "move_right")
 	if direction:
 		velocity.x = direction * SPEED
