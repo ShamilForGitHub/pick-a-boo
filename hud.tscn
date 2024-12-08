@@ -19,3 +19,10 @@ offset_top = 40.0
 offset_right = 81.0
 offset_bottom = 66.0
 text = "Gems: 0"
+
+[node name="UpgradeButton" type="Button" parent="."]
+offset_left = 6.0
+offset_top = 78.0
+offset_right = 174.0
+offset_bottom = 130.0
+text = "\"Улучшения\""
