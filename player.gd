@@ -33,22 +33,28 @@ func lock_charisma_features():
 func _physics_process(delta):
 	if not is_on_floor():
 		velocity.y += gravity * delta
+
 	if Input.is_action_just_pressed("jump") and is_on_floor():
 		velocity.y = jump
 		$JumpSfx.play()
+
 	var direction = Input.get_axis("move_left", "move_right")
 	if direction != 0:
 		velocity.x = direction * speed
 		$AnimatedSprite2D.play("run")
 		$AnimatedSprite2D.flip_h = (direction == -1)
 	else:
+		velocity.x = 0  # Немедленно обнуляем скорость
 		$AnimatedSprite2D.play("idle")
-		velocity.x = move_toward(velocity.x, 0, (speed / 2) * delta)
+
 	if not is_on_floor():
 		$AnimatedSprite2D.play("jump")
+
 	if can_attack and Input.is_action_just_pressed("ui_attack"):
 		perform_attack()
+
 	move_and_slide()
+
 
 func perform_attack():
 	var g = Global
