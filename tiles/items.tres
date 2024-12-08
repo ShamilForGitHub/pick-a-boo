@@ -1,6 +1,6 @@
 [gd_resource type="TileSet" load_steps=4 format=3 uid="uid://ev3iyqenel6d"]
 
-[ext_resource type="PackedScene" uid="uid://b41lhugahp2if" path="res://my-files/sprites/items/sprite_plus_spin/plus_item.tscn" id="1_am32d"]
+[ext_resource type="PackedScene" uid="uid://cl0hokj64albr" path="res://my-files/sprites/items/sprite_plus_spin/plus_item.tscn" id="1_am32d"]
 [ext_resource type="PackedScene" uid="uid://dypev0qrj3e6s" path="res://gem.tscn" id="2_c8xos"]
 
 [sub_resource type="TileSetScenesCollectionSource" id="TileSetScenesCollectionSource_fjifd"]
